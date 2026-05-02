@@ -11,8 +11,8 @@
     "test:report": "npx playwright test && npx playwright show-report",
     "test:regression:report": "npx playwright test --headed --grep=\"@regression\" && npx playwright show-report",
     "test:codegen:report": "npx playwright test --grep=\"@codegen\" && npx playwright show-report",
-    "test:locators:report": "npx playwright test --grep=\"@locators\" && npx playwright show-report"
-
+    "test:locators:report": "npx playwright test --grep=\"@locators\" && npx playwright show-report",
+    "test:assertions:report": "npx playwright test --grep=\"@assertions\" && npx playwright show-report"
   },
   "keywords": [],
   "author": "",
