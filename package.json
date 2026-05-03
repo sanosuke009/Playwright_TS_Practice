@@ -13,7 +13,8 @@
     "test:codegen:report": "npx playwright test --grep=\"@codegen\" && npx playwright show-report",
     "test:locators:report": "npx playwright test --grep=\"@locators\" && npx playwright show-report",
     "test:assertions:report": "npx playwright test --grep=\"@assertions\" && npx playwright show-report",
-    "test:visual:report": "npx playwright test --grep=\"@visual\" && npx playwright show-report"
+    "test:visual:report": "npx playwright test --grep=\"@visual\" && npx playwright show-report",
+    "test:accessibility:report": "npx playwright test --grep=\"@accessibility\" && npx playwright show-report"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +22,8 @@
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.3"
   }
 }
