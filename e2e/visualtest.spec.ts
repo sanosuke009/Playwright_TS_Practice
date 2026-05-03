@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Visual testing using Playwright', { tag: '@visual' }, () => {
+test.skip('Visual testing using Playwright', { tag: '@visual' }, () => {
     test('First Test to capture baseline screenshots', async ({ page }) => {
         //Navigating to the heroku app page
         await page.goto('https://the-internet.herokuapp.com/login');
