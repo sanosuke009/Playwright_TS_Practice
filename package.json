@@ -14,7 +14,8 @@
     "test:locators:report": "npx playwright test --grep=\"@locators\" && npx playwright show-report",
     "test:assertions:report": "npx playwright test --grep=\"@assertions\" && npx playwright show-report",
     "test:visual:report": "npx playwright test --grep=\"@visual\" && npx playwright show-report",
-    "test:accessibility:report": "npx playwright test --grep=\"@accessibility\" && npx playwright show-report"
+    "test:accessibility:report": "npx playwright test --grep=\"@accessibility\" && npx playwright show-report",
+    "test:api:report": "npx playwright test --grep=\"@api\" && npx playwright show-report"
   },
   "keywords": [],
   "author": "",
