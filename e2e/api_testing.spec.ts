@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import * as fs from 'fs';
-import apikey from '../api-key.json';
+//import apikey from '../api-key.json';
+const apikey = { "key": process.env.API_KEY || "" };
 const COLLECTIONNAME = "MyGadgets";
 const APIUNIQUETESTDATA = './api_test_data/apitestdata.json';
 

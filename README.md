@@ -10,3 +10,9 @@ Install accessibility testing library command:
 ```sh
 npm install @axe-core/playwright
 ```
+
+Resolve fs related issue using
+```sh
+npm install --save-dev @types/node  
+```
+
